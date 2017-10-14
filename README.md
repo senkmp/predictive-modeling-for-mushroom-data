@@ -62,6 +62,7 @@ and observed accuracy with help of confusion matrix. It was almost 100% accurate
 I always use confusion matrix for prediction analysis because:
 
 1) It tells about 'True positive and True negative'(correct prediction) and 'False Positive and False Negative' (incorrect predictions).
+
 2)Importance of this matrix is that we can easily observe false positive and false negative, In real life problems False negatives are dangerous, for example in the given problem, if our model predicts a poisonous mushroom as an edible then I would be very dangerous for life. Therefore in the model selection, False negative plays an important role. In any model, False negative should be minimized. 
 
 The I applied K-fold cross-validation for testing our model, which again gave almost 100% accuracy and almost 0% variance. Sometimes this may give different accuracy because our train data is not huge and contain some rare features also, therefore some time data spliting may be misleading in folds.
