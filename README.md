@@ -60,9 +60,13 @@ black=k,brown=n,buff=b,chocolate=h,green=r,orange=o,purple=u,white=w,yellow=y
 
 
 Installation:
+
 Predictive_modeling_for_mushroom_dataset.ipynb
+
 mushroom_train.csv
+
 Mushroom_train.csv
+
 
 Note: predicted_class.csv file is only for submission purpose. Not used in notebook.
 
@@ -80,7 +84,7 @@ Matplotlib
 
 Seaborn
 
-I have solved this problem is the following way:
+I have solved this problem in the following way:
 
    First of all, I analysed the train data set. First I plotted the histogram for categorical variables and kernel density plot for continuous variables. Basically, I wanted to analyse the distribution of these variables. From these plots, I observed that:
    
